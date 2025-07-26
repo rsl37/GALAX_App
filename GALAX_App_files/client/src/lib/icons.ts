@@ -51,6 +51,5 @@ export {
   Zap,
   Lock,
   Phone,
-  Plus,
-  Progress
+  Plus
 } from 'lucide-react';
