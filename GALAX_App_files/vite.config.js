@@ -101,7 +101,8 @@ export default defineConfig(({ mode }) => {
             ],
             icons: ['lucide-react'], // Separate icons chunk
             maps: ['@googlemaps/js-api-loader', 'leaflet'],
-            animation: ['framer-motion']
+            animation: ['framer-motion'],
+            analytics: ['@vercel/analytics', '@vercel/speed-insights'] // Vercel monitoring tools
           }
         }
       },
